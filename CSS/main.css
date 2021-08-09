@@ -299,11 +299,11 @@ h1 {
 
 .home-container {
     position: absolute;
-    margin: 20vh 22vw;
+    margin: 20vh 22%;
     padding: 10px 0px;
     z-index: 20;
-    width: 55vw;
-    /* background-color: blue; */
+    width: 710px;
+    background-color: blue;
     height: 3em;
     justify-content: space-between;
     /* text-overflow: inherit; */
@@ -387,10 +387,10 @@ h1 {
 
 .about-container {
     position: relative;
-    margin: 4vh 30vw;
+    margin: 4vh auto;
     padding: 10px 0px;
     z-index: 1;
-    width: 40vw;
+    width: 500px;
     /* height: 30vh; */
     background-color: rgb(107, 71, 83);
     /* justify-content: space-between; */
@@ -407,15 +407,17 @@ h1 {
 }
 
 .name-container {
-    /* position: relative; */
-    margin: 55vh 20vw;
+    position: relative !important;
+    margin: 55vh auto;
+    /* bottom: 0; */
+    width: 770px;
     z-index: 3 !important;
-    position: absolute !important;
+    /* position: absolute !important; */
 }
 
 .name-container>h1 {
     font-size: 80pt !important;
-    opacity: 1 !important;
+    /* opacity: 1 !important; */
 }
 
 .about-tagline {
@@ -479,11 +481,11 @@ h1 {
 }
 
 .text {
-    width: 55vw;
-    height: 30vh;
+    width: 700px;
+    /* height: 30vh; */
     color: white;
     right: 0;
-    bottom: -3vh;
+    bottom: 25vh;
     position: absolute;
     white-space: normal;
     display: flex;
