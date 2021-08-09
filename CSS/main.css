@@ -277,7 +277,7 @@ h1 {
 
 .home-img {
     position: absolute;
-    width: 220px;
+    width: 20vw;
     z-index: 10;
     opacity: 0.3;
     transition: linear 0.4s;
@@ -299,10 +299,11 @@ h1 {
 
 .home-container {
     position: absolute;
-    margin: 18vh 20vw;
+    margin: 20vh 22vw;
     padding: 10px 0px;
     z-index: 20;
     width: 55vw;
+    /* background-color: blue; */
     height: 3em;
     justify-content: space-between;
     /* text-overflow: inherit; */
@@ -369,19 +370,19 @@ h1 {
 }
 
 .about-img {
-    width: 300px;
-    height: 430px;
+    width: 25vw;
+    height: 30vw;
     position: absolute;
     overflow: hidden;
     /* bottom: 0; */
     margin: 15vh 35vw 6vh;
     z-index: 2;
-    bottom: 20px;
+    /* bottom: 20px; */
 }
 
 .about-img>img {
     width: inherit;
-    margin-bottom: 60px;
+    margin-bottom: 20vh;
 }
 
 .about-container {
@@ -405,7 +406,8 @@ h1 {
 }
 
 .name-container {
-    margin: 150px 18vw !important;
+    /* position: relative; */
+    margin: 25vh 18vw 0 18vw;
     z-index: 3 !important;
     position: absolute !important;
 }
@@ -742,7 +744,7 @@ a {
     height: 20px;
     border-radius: 50%;
     background-color: #fff;
-    transition: transform 200ms ease-out;
+    transition: transform 100ms ease-out;
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: difference;
