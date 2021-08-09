@@ -319,7 +319,7 @@ h1 {
 }
 
 .home-container>h1 {
-    font-size: 55pt;
+    font-size: 450%;
     font-family: "Bon";
     /* text-transform: uppercase; */
     /* font-weight: 100; */
@@ -387,7 +387,7 @@ h1 {
 
 .about-container {
     position: relative;
-    margin: 4vh 27vw;
+    margin: 4vh 30%;
     padding: 10px 0px;
     z-index: 1;
     width: 60vw;
@@ -491,6 +491,7 @@ h1 {
 
 .text>h1 {
     font-family: "Bon";
+    font-size: 400%;
 }
 
 .text-1 {
@@ -595,7 +596,7 @@ a {
 .contact a {
     font-family: "Bon";
     font-style: italic;
-    font-size: 30pt;
+    font-size: 300%;
     line-height: 2;
 }
 
@@ -670,7 +671,7 @@ a {
     width: 40vw;
     height: 90%;
     position: absolute;
-    right: 5%;
+    right: 0;
     bottom: 0;
 }
 
